@@ -9,7 +9,7 @@ Este repositorio reúne mis actividades y proyectos de Inteligencia Artificial. 
 | [A1.1](A1.1/) | Análisis del nivel de obesidad | Notebook, versión HTML y base de datos |
 | [A1.2](A1.2/) | Relación entre felicidad y producto interno bruto mediante regresión | Notebook, versión HTML y base de datos |
 | [A1.3](A1.3/) | Análisis de datos de calificaciones | Notebook, versión HTML y base de datos |
-| [P P1](P%20P1/) | Proyecto del primer parcial: análisis del consumo excesivo de alcohol | Notebook, versión HTML y base de datos |
+| [P P1](P%20P1/) | Análisis del consumo excesivo de alcohol | Notebook, versión HTML y base de datos |
 | [A2.1](A2.1/) | Clasificación del consumo excesivo de alcohol con regresión logística | Notebook, versión HTML y base de datos |
 | [A2.2](A2.2/) | Clasificación de datos de estudiantes con LDA y árboles de decisión | Notebook, versión HTML y base de datos |
 | [A2.3](A2.3/) | Clasificación de flores Iris con Random Forest, Boosting, SVM y redes neuronales | Notebook, versión HTML y base de datos |
