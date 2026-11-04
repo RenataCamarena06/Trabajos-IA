@@ -1,35 +1,31 @@
-# A3.2 — Clustering y análisis de grupos
+# A3.2 — Tutorial de clustering
 
 ## Descripción
 
-En esta actividad se aplican técnicas de aprendizaje no supervisado para explorar cómo se agrupan las observaciones según sus características.
+Este tutorial explica paso a paso cómo aplicar K-Means y clustering jerárquico para agrupar observaciones según sus características.
 
-Se analizan los grupos obtenidos y se comparan distintas configuraciones para comprender cómo influyen las medidas de distancia y los métodos de enlace en los resultados.
+Incluye código, visualizaciones e interpretaciones para comprender cómo influyen las distancias, los métodos de enlace y el número de grupos en los resultados.
 
-## Métodos utilizados
+## Contenido
 
-- K-Means.
+- Agrupamiento mediante K-Means.
 - Clustering jerárquico.
 - Visualización e interpretación de dendrogramas.
 - Comparación de distancias euclidiana y de correlación.
 - Comparación de métodos de enlace complete y average.
+- Interpretación de los resultados y conclusiones.
 
-## Archivos
+## Base de datos
 
-- Notebook `.ipynb`: código, análisis, gráficas e interpretación de resultados.
-- Documento de la actividad: desarrollo del trabajo y conclusiones.
-- Archivos de datos utilizados por el notebook, cuando corresponda.
+Los datos se cargan directamente mediante el código del notebook en Google Colab. No es necesario descargar ni subir una base de datos por separado.
 
-## Cómo reproducir los resultados
+## Cómo ejecutar el tutorial
 
-1. Descarga el notebook y los archivos de datos utilizados.
-2. Abre el notebook en Jupyter Notebook, JupyterLab o VS Code.
-3. Instala las bibliotecas importadas al inicio.
-4. Si el notebook lee archivos externos, ajusta sus rutas a la ubicación en tu computadora.
-5. Ejecuta las celdas en orden, desde la primera hasta la última.
+1. Abre el notebook `.ipynb` en Google Colab.
+2. Ejecuta las celdas de instalación e importación de bibliotecas.
+3. Ejecuta las celdas que cargan los datos.
+4. Continúa con las demás celdas en orden y sigue las explicaciones de cada paso.
 
-## Interpretación
+## Objetivo de aprendizaje
 
-Los grupos representan similitudes entre observaciones. Su composición puede cambiar según el preprocesamiento, la distancia, el número de grupos y el método de agrupamiento.
-
-Las conclusiones del trabajo explican estas diferencias y las limitaciones de los resultados.
+Comprender cómo se forman los grupos y cómo cambian los resultados al modificar la distancia, el método de enlace y el número de clusters.
