@@ -1,30 +1,29 @@
-# A3.1 — Análisis de datos y aprendizaje automático
+# A3.1 — Tutorial de análisis de datos y aprendizaje automático
 
 ## Descripción
 
-Esta actividad presenta el análisis desarrollado en el notebook, junto con el código, los resultados y sus interpretaciones.
+Este tutorial presenta paso a paso el procedimiento desarrollado en el notebook, con código, explicaciones e interpretación de los resultados.
 
 ## Archivos
 
-- Notebook `.ipynb`: código y desarrollo de la actividad.
-- Documento del trabajo: explicación del análisis, resultados y referencias.
+- Notebook `.ipynb`: código y desarrollo del tutorial.
+- Documento del tutorial: explicaciones, resultados y referencias.
 
 ## Base de datos
 
-La base de datos no se incluye en esta carpeta debido a su tamaño.
+La base de datos no se incluye en el repositorio debido a su tamaño. Es necesario descargarla directamente desde el enlace indicado en las referencias del documento.
 
-Para reproducir la actividad, es necesario descargarla directamente desde la fuente indicada en las referencias del documento. Una vez descargada, conserva los nombres y la estructura de los archivos utilizados en el notebook.
+Después de descargarla, descomprime los archivos si es necesario y ajusta las rutas de lectura del notebook.
 
-## Cómo reproducir los resultados
+## Cómo ejecutar el tutorial
 
-1. Descarga el notebook y consulta el documento de la actividad.
-2. Localiza el enlace de la base de datos en las referencias del documento.
-3. Descarga los datos y descomprímelos si es necesario.
-4. Abre el notebook en Jupyter Notebook, JupyterLab o VS Code.
-5. Instala las bibliotecas importadas en el código.
-6. Ajusta las rutas de lectura para que correspondan a la ubicación de los datos en tu computadora.
-7. Ejecuta las celdas en orden, desde la primera hasta la última.
+1. Descarga el notebook.
+2. Consulta las referencias del documento y descarga la base de datos desde la fuente indicada.
+3. Abre el notebook en Google Colab, Jupyter o VS Code.
+4. Instala las bibliotecas indicadas en el tutorial.
+5. Ajusta las rutas de lectura a la ubicación de los datos.
+6. Ejecuta las celdas en orden y sigue las explicaciones de cada paso.
 
-## Consulta del trabajo
+## Consulta del tutorial
 
-Puedes revisar el documento para conocer el análisis y sus resultados sin ejecutar el código ni descargar la base de datos.
+Puedes consultar el documento para revisar el procedimiento y los resultados sin ejecutar el código ni descargar los datos.
