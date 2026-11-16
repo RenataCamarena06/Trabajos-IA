@@ -1,6 +1,6 @@
 # Trabajos de Inteligencia Artificial
 
-Este repositorio reúne mis actividades, proyectos y tutoriales de Inteligencia Artificial. Los trabajos incluyen análisis de datos, aprendizaje supervisado, clustering y aprendizaje por refuerzo.
+Este repositorio reúne mis actividades, proyectos y tutoriales de Inteligencia Artificial. Incluye análisis de datos, modelos de aprendizaje supervisado, clustering, aprendizaje por refuerzo y análisis de datos genéticos.
 
 ## Actividades y proyectos
 
@@ -14,41 +14,45 @@ Este repositorio reúne mis actividades, proyectos y tutoriales de Inteligencia 
 | [A2.2](A2.2/) | Clasificación de datos de estudiantes con LDA y árboles de decisión |
 | [A2.3](A2.3/) | Clasificación de flores Iris con Random Forest, Boosting, SVM y redes neuronales |
 | [P P2](P%20P2/) | Proyecto: clasificación de la prioridad de accidentes de tránsito en la Ciudad de México |
+| [P P3](P%20P3/) | Proyecto: análisis de datos genéticos y supervivencia en cáncer cervicouterino |
 
 ## Tutoriales
 
-A partir de A3.1, los trabajos presentan procedimientos paso a paso con código, explicaciones e interpretación de resultados.
+A partir de A3.1, las actividades se presentan como tutoriales con procedimientos paso a paso, código, explicaciones e interpretación de resultados.
 
 | Tutorial | Tema | Datos |
 |---|---|---|
-| [A3.1](A3.1/) | Tutorial de análisis de datos y aprendizaje automático | Descarga desde las referencias del documento |
-| [A3.2](A3.2/) | Tutorial de K-Means y clustering jerárquico | Carga directa mediante el código en Colab |
-| [A3.3](A3.3/) | Tutorial de aprendizaje por refuerzo | Generados mediante la interacción con el entorno |
+| [A3.1](A3.1/) | Análisis de datos genéticos con PCA, clustering y pruebas múltiples | Descarga desde las referencias del documento |
+| [A3.2](A3.2/) | K-Means y clustering jerárquico | Carga directa mediante el código en Colab |
+| [A3.3](A3.3/) | Aprendizaje por refuerzo | Generados mediante la interacción con el entorno |
 
 ## Organización
 
 Cada trabajo tiene su propia carpeta y un `README.md` con su descripción, los archivos disponibles y las instrucciones para reproducir los resultados.
 
-Los notebooks `.ipynb` contienen el código y las explicaciones. Las versiones HTML o PDF, cuando están disponibles, permiten consultar el trabajo sin ejecutar el código.
+Los notebooks `.ipynb` contienen el código y las explicaciones. Las versiones HTML o PDF, cuando están disponibles, permiten consultar los trabajos sin ejecutar el código.
 
 ## Cómo consultar los trabajos
 
 Haz clic en el nombre del trabajo en las tablas para entrar a su carpeta. Consulta primero su `README.md` y después abre el notebook o el documento correspondiente.
 
+Para consultar una versión HTML, descárgala y ábrela en tu navegador.
+
 ## Cómo reproducir los resultados
 
 1. Descarga el notebook del trabajo que te interese.
-2. Consulta su `README.md` para conocer las dependencias y los datos necesarios.
-3. Abre el notebook en Google Colab, Jupyter Notebook, JupyterLab o VS Code, según las instrucciones del trabajo.
+2. Consulta su `README.md` para conocer las bibliotecas y los datos necesarios.
+3. Abre el notebook en Google Colab, Jupyter Notebook, JupyterLab o VS Code, según las instrucciones.
 4. Instala las bibliotecas indicadas.
-5. Ajusta las rutas de los archivos cuando corresponda.
+5. Carga los datos y ajusta las rutas de lectura cuando corresponda.
 6. Ejecuta las celdas en orden.
 
-## Consideraciones sobre los datos
+## Disponibilidad de las bases de datos
 
-- En las actividades y proyectos que incluyen una base de datos, descarga también los archivos necesarios para ejecutar el notebook.
-- En A3.1, la base de datos no se incluye debido a su tamaño. Debe descargarse directamente desde la fuente indicada en las referencias del documento.
+- En los trabajos que incluyen sus bases de datos, descarga también los archivos necesarios para ejecutar el notebook.
+- En A3.1, la base de datos no se incluye debido a su tamaño. Debe descargarse desde la fuente indicada en las referencias del documento.
 - En A3.2, los datos se cargan directamente mediante el código en Colab; no es necesario descargarlos por separado.
-- En A3.3, las experiencias utilizadas para entrenar al agente se generan dentro del entorno de simulación; no se requiere una base de datos externa.
+- En A3.3, las experiencias de entrenamiento se generan dentro del entorno de simulación; no se requiere una base de datos externa.
+- En P P3, los archivos de datos genéticos y clínicos no se incluyen debido a su tamaño. Es necesario descargarlos desde las fuentes indicadas en las referencias del reporte y seguir las instrucciones de su README.
 
-Los trabajos con redes neuronales requieren las bibliotecas indicadas en sus notebooks. Los resultados de entrenamientos con componentes aleatorios pueden variar entre ejecuciones.
+Los resultados de los procedimientos con componentes aleatorios pueden variar entre ejecuciones.
